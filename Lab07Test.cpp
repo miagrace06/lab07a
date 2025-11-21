@@ -3,7 +3,6 @@
 #include <sstream>
 using namespace std;
 
-// Simple check functions (same style as your last lab)
 void check(const string& actual, const string& expected, const string& testName) {
     if (actual == expected) {
         cout << "PASSED: " << testName << endl;
